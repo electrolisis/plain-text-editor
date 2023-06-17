@@ -31,7 +31,7 @@ qt6:
 --------------------------------------------------------------------------------
 ## Screenshots
 
-<img src="https://github.com/electrolilis/plain-text-editor/blob/main/screenshots/screen.png">
+<img src="https://github.com/electrolisis/plain-text-editor/blob/main/screenshots/screen.png">
 
 --------------------------------------------------------------------------------
 ## Notes
