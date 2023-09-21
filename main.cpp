@@ -1,5 +1,5 @@
 /******************************************************************************
-** Copyright (C) 2023 Folhium project
+** Copyright (C) 2023 Efektivus project
 ** SPDX-License-Identifier: GPL-3.0-or-later
 ** https://spdx.org/licenses/GPL-3.0-or-later.html
 *******************************************************************************
@@ -29,15 +29,15 @@ int main(int argc, char *argv[])
     QString locale = QLocale::system().name();
     QTranslator translator;
     //
-    if (translator.load("plain-text-editor-folhium_" + locale)) {
+    if (translator.load("plain-text-editor-efektivus_" + locale)) {
         app.installTranslator(&translator);
-    }else if (translator.load("plain-text-editor-folhium_" + locale, "/usr/share/plain-text-editor-folhium/translations")) {
+    }else if (translator.load("plain-text-editor-efektivus_" + locale, "/usr/share/plain-text-editor-efektivus/translations")) {
        app.installTranslator(&translator);
     }
     ///
 
     QCoreApplication::setOrganizationName("FolhiumProject");
-    QCoreApplication::setApplicationName("plain-text-editor-folhium");
+    QCoreApplication::setApplicationName("plain-text-editor-efektivus");
     //QCoreApplication::setApplicationVersion(QT_VERSION_STR);
     QCoreApplication::setApplicationVersion("0.0");
     QCommandLineParser parser;
