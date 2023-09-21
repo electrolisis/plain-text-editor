@@ -2,7 +2,7 @@
 
 Basic plain text editor (Qt)
 
-Folhium project
+Project name: Efektivus
 
 https://github.com/electrolisis/plain-text-editor
 
@@ -13,6 +13,9 @@ https://github.com/electrolisis/plain-text-editor
 Qt Toolkit
 
 debian/*buntu:
+
+cmake:
+    # apt install cmake
 
 qt5:
     # apt install qtbase5-dev
