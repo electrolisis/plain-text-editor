@@ -19,9 +19,6 @@ cmake:
 
 qt5:
     # apt install qtbase5-dev
-
-qt6:
-    # apt install qt6-base-dev
     
 ## Build / install
     
