@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     }
     ///
 
-    QCoreApplication::setOrganizationName("FolhiumProject");
+    QCoreApplication::setOrganizationName("EfektivusProject");
     QCoreApplication::setApplicationName("plain-text-editor-efektivus");
     //QCoreApplication::setApplicationVersion(QT_VERSION_STR);
     QCoreApplication::setApplicationVersion("0.0");
